@@ -1,12 +1,4 @@
-.app {
-  padding: 16px;
-}
-
-.controls {
-  width: 100%;
-}
-
-.modes {
+.actions {
   margin-top: 11px;
   display: flex;
   justify-content: space-between;

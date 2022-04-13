@@ -1,0 +1,54 @@
+.imagebox {
+  margin-top: 15px;
+  background: #ffd3a0;
+  border-radius: 2px;
+  overflow: hidden;
+  border: 1px solid #13121a;
+  border-bottom: 0;
+  z-index: 2;
+}
+
+.upper {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #13121a;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.upper__1 {
+  background: rgba(14, 14, 14, 0.7);
+  height: 5px;
+}
+
+.upper__2 {
+  background: #13121a;
+  height: 5px;
+}
+
+.upper__3 {
+  width: 100%;
+  min-height: 400px;
+}
+
+.upper__3 img {
+  height: 100%;
+  width: 100%;
+}
+
+.lower {
+  height: 5px;
+  background-color: #ffaf54;
+  border-top: 1px solid #13121a;
+  border-bottom: 1px solid #13121a;
+}
+
+.shadow {
+  height: 10px;
+  background-color: rgba(14, 14, 14, 0.3);
+  border: 1px solid rgba(14, 14, 14, 0.3);
+  border-radius: 0px 0px 2px 2px;
+  transform: translateY(-5px);
+  z-index: 1;
+}

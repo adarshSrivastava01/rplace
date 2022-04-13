@@ -1,0 +1,34 @@
+.contentbox {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(14, 14, 14, 0.3);
+  overflow: hidden;
+  margin-top: 11px;
+}
+
+.upper {
+  padding: 16px;
+  padding-bottom: 11px;
+  border: 1px solid #13121a;
+  border-radius: 2px;
+  border-bottom-left-radius: 0;
+  background-color: #ffd3a0;
+  border-bottom-right-radius: 0;
+}
+
+.lower {
+  height: 5px;
+  background-color: #ffaf54;
+  border: 1px solid #13121a;
+  border-top: 0;
+  border-radius: 2px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.shadow {
+  height: 5px;
+  border-radius: 0px 0px 2px 2px;
+  border: 1px solid rgba(14, 14, 14, 0.3);
+  border-top: 0;
+}

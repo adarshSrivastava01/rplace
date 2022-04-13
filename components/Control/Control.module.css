@@ -1,0 +1,47 @@
+.control {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #13121a;
+  border-radius: 2px 0px 0px 2px;
+  height: 100%;
+}
+
+.upper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  font-family: "lores-12";
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.7);
+  padding: 12px;
+}
+
+.upper img {
+  height: 100%;
+  width: 100%;
+}
+
+.upper > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upper span {
+  margin-left: 17px;
+}
+
+.lower {
+  height: 5px;
+  width: 100%;
+}
+
+.shadow {
+  height: 5px;
+  background-color: rgba(14, 14, 14, 0.3);
+  border: 1px solid rgba(14, 14, 14, 0.3);
+  border-radius: 0px 0px 2px 2px;
+}
